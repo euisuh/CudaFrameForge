@@ -6,7 +6,7 @@ This repository contains the project submission by **Euisuh Jeong** for the CUDA
 
 | Input | Output |
 |-------|--------|
-| ![inputFrame](data/input.gif) | ![outputFrame](data/output.gif) |
+| [inputFrame](data/input.gif) | [outputFrame](data/output.gif) |
 
 
 ## Project Overview
