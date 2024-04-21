@@ -6,7 +6,7 @@ This repository contains the project submission by **Euisuh Jeong** for the CUDA
 
 | Input | Output |
 |-------|--------|
-| [![inputFrame](data/input.gif)](https://youtu.be/3P1CnWI62Ik?si=-uQfjWsPdYBz41q6) | [![outputFrame](data/input.gif)](https://youtu.be/Grudv6hwyBQ) |
+| [![inputFrame](data/input.gif)](https://youtu.be/3P1CnWI62Ik?si=-uQfjWsPdYBz41q6) | [![outputFrame](data/output.gif)](https://youtu.be/Grudv6hwyBQ) |
 
 You can view the full output video [here](https://youtu.be/Grudv6hwyBQ), and the original input video [here](https://youtu.be/3P1CnWI62Ik?si=-uQfjWsPdYBz41q6).
 
