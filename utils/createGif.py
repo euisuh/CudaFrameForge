@@ -20,12 +20,12 @@ def extract_frames(input_video_path, output_gif_path, start_time, end_time, fps=
 
 if __name__ == "__main__":
     # Define input and output paths
-    input_video_path = "data/feel-the-rhythm-seoul.mp4"
-    output_gif_path = "output1.gif"
+    input_video_path = "data/feel-the-rhythm-seoul-compress.mp4"
+    output_gif_path = "data/output.gif"
 
     # Define start and end time (format: MM:SS)
-    start_time = "00:29"
-    end_time = "00:35"
+    start_time = "00:34"
+    end_time = "00:41"
 
     # Extract frames and save as GIF
     extract_frames(input_video_path, output_gif_path, start_time, end_time)
