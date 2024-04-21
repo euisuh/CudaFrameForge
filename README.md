@@ -24,8 +24,6 @@ For memory allocation, the program utilizes 2D memory functions, which offer imp
 
 ## Building and Testing
 
-The program has been developed and tested on WSL (Windows Subsystem for Linux), using Ubuntu 18.04. Follow these steps:
-
 1. **Build**: Use the command `make build` to build the program.
 
 2. **Run**: Supply the input and output video file paths as arguments. Options include:
