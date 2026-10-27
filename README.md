@@ -22,6 +22,8 @@ The output highlights horizontal intensity changes from the input frame's green
 channel. Full videos: [input](https://youtu.be/3P1CnWI62Ik) and
 [output](https://youtu.be/Grudv6hwyBQ).
 
+The repository history contains several earlier versions of the demo GIFs, so a full clone is much larger than the checkout (about 120 MB on GitHub versus about 18 MB of current GIFs); `--depth 1` avoids it.
+
 No throughput, latency, or speedup claims are included because the repository
 does not contain a reproducible benchmark.
 
@@ -67,7 +69,7 @@ pkg-config --modversion opencv4
 ## Build and run
 
 ```bash
-git clone https://github.com/euisuh/CudaFrameForge.git
+git clone --depth 1 https://github.com/euisuh/CudaFrameForge.git
 cd CudaFrameForge
 make build
 ```
@@ -131,3 +133,7 @@ utilities in this repository.
 - Output depends on local MP4V codec support.
 - CUDA and NPP errors are not yet surfaced through explicit status checks.
 - Demo GIFs are illustrative; they are not benchmark artifacts.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
