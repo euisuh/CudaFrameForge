@@ -41,6 +41,7 @@ void enhanceVideoFrame(cv::Mat &inputMat, cv::VideoWriter &videoStream) {
     // Release GPU resources
     cudaFree(gpuInputMat);
     cudaFree(gpuProcessedResult);
+    cudaFree(gpuGreenFilterOutput);
 }
 
 __host__ int main(int argc, char** argv) {
